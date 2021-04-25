@@ -1,0 +1,6 @@
+framework module Pods_ASBadgeTool_Tests {
+  umbrella header "Pods-ASBadgeTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

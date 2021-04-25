@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B01B494D0F1F0D1B0CEBA0ABA4A95DB /* PPBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A52B29F3BC560097C65CA92B50259D4E /* PPBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE26B3C7DEE47F7D3DA3DE8A5BBB12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3BDD8FCEC28C3FF63C17D679666D639C /* ASBadgeTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27830D345F238AFC08C5FE5A8D0AC0F5 /* ASBadgeTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF495E746904AB7BFE1BC790FC4440B /* Pods-ASBadgeTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C76A9780F1255C21D3F99927FE38B45E /* Pods-ASBadgeTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B014516124819301038AC575CC290D4 /* Pods-ASBadgeTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C99E51DAC2B35356D67E1980BEE2A26 /* Pods-ASBadgeTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524524FFC2CAAF4D500AF86D8B9BF385 /* Pods-ASBadgeTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E89C6501524E27DCCDA493FB8B994 /* Pods-ASBadgeTool_Example-dummy.m */; };
+		6639580FAFC7248FBC9A89EEC0663A80 /* PPBadgeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CEC12FED198DD0C10A4EFD42543C43 /* PPBadgeControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB414D0541E8D87C584B51C768362A8 /* ASBadgeTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FBC887B32C1A04024A2A99E7DA5EA /* ASBadgeTool-dummy.m */; };
+		7A85EEA659AD992BD87214CD43C1DA0C /* PPBadgeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EEE2970409C1E0F3779CF129701815 /* PPBadgeControl.m */; };
+		85197F085EF8D04093C633E1BA63A8F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4C697F15BE28E81B4C1704B71069380 /* Pods-ASBadgeTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F81FBCA212D0E26423EC8E697E3191 /* Pods-ASBadgeTool_Tests-dummy.m */; };
+		AC0CB2566B893C918D9F25D3FE24D736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCB2217865B42BD50CDEE6B5CDD2327E /* UITabBarItem+PPBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E057FDC2B39534C636055FD6D523ACE /* UITabBarItem+PPBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3AE3C1CF42AEBB6B70566FEEB6E8F09 /* UIBarButtonItem+PPBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39217CE90D18C7698A80A02E91323C1B /* UIBarButtonItem+PPBadgeView.m */; };
+		C408B50DB423F1F226A10272D40B5883 /* UIBarButtonItem+PPBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E17121B4FF516E3115A80C9EAB9CEFF /* UIBarButtonItem+PPBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D354AD483D99036074E7EEB383405567 /* UITabBarItem+PPBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62907A1144D781FBFB42E8B0A7D46AB4 /* UITabBarItem+PPBadgeView.m */; };
+		ECE06112301F3F7CBF9DE1BA29185537 /* UIView+PPBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BCA5657C8264A172BD4A1AD008EF7 /* UIView+PPBadgeView.m */; };
+		F5FF59F96B06CC4DB407B301A2C9F20D /* UIView+PPBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A25D0B427689CD3A7F78A9538DF7A4E /* UIView+PPBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		975744A64A46CE7735FC03F6B0B846F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA13D1E2AA15F34543DF6721ED1BDA1B;
+			remoteInfo = "Pods-ASBadgeTool_Example";
+		};
+		D29971D0A3F5620B9660FCAA2B72BBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4ADF08EB7B97515C2799F629FB1A9B;
+			remoteInfo = ASBadgeTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0090960FCCB9CB27876ECBBBD057953E /* Pods-ASBadgeTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASBadgeTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		072EB4FAF17C85082127A0A9BF7CFC42 /* Pods_ASBadgeTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASBadgeTool_Tests.framework; path = "Pods-ASBadgeTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CF52B8CEEED81EE1A943462C7649F8 /* ASBadgeTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBadgeTool-prefix.pch"; sourceTree = "<group>"; };
+		1A25D0B427689CD3A7F78A9538DF7A4E /* UIView+PPBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PPBadgeView.h"; path = "ASBadgeTool/Classes/UIView+PPBadgeView.h"; sourceTree = "<group>"; };
+		1C99E51DAC2B35356D67E1980BEE2A26 /* Pods-ASBadgeTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASBadgeTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27830D345F238AFC08C5FE5A8D0AC0F5 /* ASBadgeTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBadgeTool-umbrella.h"; sourceTree = "<group>"; };
+		37A15D0F2B682272AFCB4D6BA5F1EBFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		388BB2BEC1456F4DDD1F407565432A44 /* Pods-ASBadgeTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASBadgeTool_Example-Info.plist"; sourceTree = "<group>"; };
+		39217CE90D18C7698A80A02E91323C1B /* UIBarButtonItem+PPBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+PPBadgeView.m"; path = "ASBadgeTool/Classes/UIBarButtonItem+PPBadgeView.m"; sourceTree = "<group>"; };
+		4C5507E3737D752C675E87216222DA4A /* Pods-ASBadgeTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASBadgeTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E17121B4FF516E3115A80C9EAB9CEFF /* UIBarButtonItem+PPBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PPBadgeView.h"; path = "ASBadgeTool/Classes/UIBarButtonItem+PPBadgeView.h"; sourceTree = "<group>"; };
+		56970317220A264D0DFD306E22F39081 /* Pods-ASBadgeTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASBadgeTool_Tests.modulemap"; sourceTree = "<group>"; };
+		5E057FDC2B39534C636055FD6D523ACE /* UITabBarItem+PPBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+PPBadgeView.h"; path = "ASBadgeTool/Classes/UITabBarItem+PPBadgeView.h"; sourceTree = "<group>"; };
+		62907A1144D781FBFB42E8B0A7D46AB4 /* UITabBarItem+PPBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+PPBadgeView.m"; path = "ASBadgeTool/Classes/UITabBarItem+PPBadgeView.m"; sourceTree = "<group>"; };
+		6A9FBC887B32C1A04024A2A99E7DA5EA /* ASBadgeTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASBadgeTool-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76F0AE9994460D792909A2F4E2B9A5E4 /* Pods-ASBadgeTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASBadgeTool_Example.modulemap"; sourceTree = "<group>"; };
+		7A9B084149F914471FD47154374C97D8 /* Pods-ASBadgeTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBadgeTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82A35E5F305ECE33458862AFD42BDA04 /* ASBadgeTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASBadgeTool.release.xcconfig; sourceTree = "<group>"; };
+		83ED4C2E8B9BEA86FE71E9FF5A125A87 /* Pods-ASBadgeTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBadgeTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85FA88CA713784B1A4B43C7563A84637 /* Pods-ASBadgeTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASBadgeTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		8900DCAB64E5B621405A020E33284DE2 /* Pods-ASBadgeTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBadgeTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		92E0984A959262E67618DDE3BE6F7961 /* ASBadgeTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASBadgeTool.framework; path = ASBadgeTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97214F42ADB342D337FB7EF8E1F92D46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0AFD8D0F76CCD9FA84612A9FE78698 /* ASBadgeTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASBadgeTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2EEE2970409C1E0F3779CF129701815 /* PPBadgeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPBadgeControl.m; path = ASBadgeTool/Classes/PPBadgeControl.m; sourceTree = "<group>"; };
+		A52B29F3BC560097C65CA92B50259D4E /* PPBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPBadgeView.h; path = ASBadgeTool/Classes/PPBadgeView.h; sourceTree = "<group>"; };
+		A7B1450DC8925013D58A86AF77F07F7D /* Pods-ASBadgeTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBadgeTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C58E5EB6D95543FB8AE69AE9618CB0 /* Pods-ASBadgeTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASBadgeTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BF1BCA5657C8264A172BD4A1AD008EF7 /* UIView+PPBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PPBadgeView.m"; path = "ASBadgeTool/Classes/UIView+PPBadgeView.m"; sourceTree = "<group>"; };
+		C6CEC12FED198DD0C10A4EFD42543C43 /* PPBadgeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPBadgeControl.h; path = ASBadgeTool/Classes/PPBadgeControl.h; sourceTree = "<group>"; };
+		C747BAC2A2A6E7CDC8AC079940A51D8A /* ASBadgeTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASBadgeTool.debug.xcconfig; sourceTree = "<group>"; };
+		C76A9780F1255C21D3F99927FE38B45E /* Pods-ASBadgeTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASBadgeTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		C8F81FBCA212D0E26423EC8E697E3191 /* Pods-ASBadgeTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASBadgeTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		C922FFEC15F729805E62539A262A16FE /* Pods-ASBadgeTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASBadgeTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9D66F0883640F42CC72307594A301E5 /* Pods-ASBadgeTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASBadgeTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC76BFA2B1AD5D17351F1617DA204615 /* ASBadgeTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASBadgeTool.modulemap; sourceTree = "<group>"; };
+		D6E4FC7EDC2D6E8B32A49F9DFF47AFBE /* ASBadgeTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASBadgeTool-Info.plist"; sourceTree = "<group>"; };
+		DA7E89C6501524E27DCCDA493FB8B994 /* Pods-ASBadgeTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASBadgeTool_Example-dummy.m"; sourceTree = "<group>"; };
+		F970B38714AAAF6EC4E068B24D92BDDF /* Pods_ASBadgeTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASBadgeTool_Example.framework; path = "Pods-ASBadgeTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733D4AE6035FF2FB87D81A84AA14759A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0CB2566B893C918D9F25D3FE24D736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E9C3D5E329B0931C887F81E52F614B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE26B3C7DEE47F7D3DA3DE8A5BBB12A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEA1B22ED04E9728B2D797C7E5DCE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85197F085EF8D04093C633E1BA63A8F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006DF8F35760783F9E4120215738E96B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				580670ECFE323EEFAA0D0E0C082DC7A6 /* ASBadgeTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		092C93859FDE9803AA561BBD3B16BA11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC76BFA2B1AD5D17351F1617DA204615 /* ASBadgeTool.modulemap */,
+				6A9FBC887B32C1A04024A2A99E7DA5EA /* ASBadgeTool-dummy.m */,
+				D6E4FC7EDC2D6E8B32A49F9DFF47AFBE /* ASBadgeTool-Info.plist */,
+				09CF52B8CEEED81EE1A943462C7649F8 /* ASBadgeTool-prefix.pch */,
+				27830D345F238AFC08C5FE5A8D0AC0F5 /* ASBadgeTool-umbrella.h */,
+				C747BAC2A2A6E7CDC8AC079940A51D8A /* ASBadgeTool.debug.xcconfig */,
+				82A35E5F305ECE33458862AFD42BDA04 /* ASBadgeTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASBadgeTool";
+			sourceTree = "<group>";
+		};
+		10F1E418F2F6FC2A5FB993EA5C280F4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61892DD1764D1728DF9B128A36748F7D /* Pods-ASBadgeTool_Example */,
+				CB0D21ED2B5105115C19ADFFAA9654AA /* Pods-ASBadgeTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		580670ECFE323EEFAA0D0E0C082DC7A6 /* ASBadgeTool */ = {
+			isa = PBXGroup;
+			children = (
+				C6CEC12FED198DD0C10A4EFD42543C43 /* PPBadgeControl.h */,
+				A2EEE2970409C1E0F3779CF129701815 /* PPBadgeControl.m */,
+				A52B29F3BC560097C65CA92B50259D4E /* PPBadgeView.h */,
+				4E17121B4FF516E3115A80C9EAB9CEFF /* UIBarButtonItem+PPBadgeView.h */,
+				39217CE90D18C7698A80A02E91323C1B /* UIBarButtonItem+PPBadgeView.m */,
+				5E057FDC2B39534C636055FD6D523ACE /* UITabBarItem+PPBadgeView.h */,
+				62907A1144D781FBFB42E8B0A7D46AB4 /* UITabBarItem+PPBadgeView.m */,
+				1A25D0B427689CD3A7F78A9538DF7A4E /* UIView+PPBadgeView.h */,
+				BF1BCA5657C8264A172BD4A1AD008EF7 /* UIView+PPBadgeView.m */,
+				D25FA0077E0347C18D0C370E505A1E02 /* Pod */,
+				092C93859FDE9803AA561BBD3B16BA11 /* Support Files */,
+			);
+			name = ASBadgeTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61892DD1764D1728DF9B128A36748F7D /* Pods-ASBadgeTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				76F0AE9994460D792909A2F4E2B9A5E4 /* Pods-ASBadgeTool_Example.modulemap */,
+				0090960FCCB9CB27876ECBBBD057953E /* Pods-ASBadgeTool_Example-acknowledgements.markdown */,
+				C9D66F0883640F42CC72307594A301E5 /* Pods-ASBadgeTool_Example-acknowledgements.plist */,
+				DA7E89C6501524E27DCCDA493FB8B994 /* Pods-ASBadgeTool_Example-dummy.m */,
+				B5C58E5EB6D95543FB8AE69AE9618CB0 /* Pods-ASBadgeTool_Example-frameworks.sh */,
+				388BB2BEC1456F4DDD1F407565432A44 /* Pods-ASBadgeTool_Example-Info.plist */,
+				C76A9780F1255C21D3F99927FE38B45E /* Pods-ASBadgeTool_Example-umbrella.h */,
+				8900DCAB64E5B621405A020E33284DE2 /* Pods-ASBadgeTool_Example.debug.xcconfig */,
+				7A9B084149F914471FD47154374C97D8 /* Pods-ASBadgeTool_Example.release.xcconfig */,
+			);
+			name = "Pods-ASBadgeTool_Example";
+			path = "Target Support Files/Pods-ASBadgeTool_Example";
+			sourceTree = "<group>";
+		};
+		A1EC7B57A5ABB05000CFE9196BEE898B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E0984A959262E67618DDE3BE6F7961 /* ASBadgeTool.framework */,
+				F970B38714AAAF6EC4E068B24D92BDDF /* Pods_ASBadgeTool_Example.framework */,
+				072EB4FAF17C85082127A0A9BF7CFC42 /* Pods_ASBadgeTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0D21ED2B5105115C19ADFFAA9654AA /* Pods-ASBadgeTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56970317220A264D0DFD306E22F39081 /* Pods-ASBadgeTool_Tests.modulemap */,
+				4C5507E3737D752C675E87216222DA4A /* Pods-ASBadgeTool_Tests-acknowledgements.markdown */,
+				C922FFEC15F729805E62539A262A16FE /* Pods-ASBadgeTool_Tests-acknowledgements.plist */,
+				C8F81FBCA212D0E26423EC8E697E3191 /* Pods-ASBadgeTool_Tests-dummy.m */,
+				85FA88CA713784B1A4B43C7563A84637 /* Pods-ASBadgeTool_Tests-Info.plist */,
+				1C99E51DAC2B35356D67E1980BEE2A26 /* Pods-ASBadgeTool_Tests-umbrella.h */,
+				A7B1450DC8925013D58A86AF77F07F7D /* Pods-ASBadgeTool_Tests.debug.xcconfig */,
+				83ED4C2E8B9BEA86FE71E9FF5A125A87 /* Pods-ASBadgeTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASBadgeTool_Tests";
+			path = "Target Support Files/Pods-ASBadgeTool_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				006DF8F35760783F9E4120215738E96B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A1EC7B57A5ABB05000CFE9196BEE898B /* Products */,
+				10F1E418F2F6FC2A5FB993EA5C280F4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25FA0077E0347C18D0C370E505A1E02 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E0AFD8D0F76CCD9FA84612A9FE78698 /* ASBadgeTool.podspec */,
+				37A15D0F2B682272AFCB4D6BA5F1EBFE /* LICENSE */,
+				97214F42ADB342D337FB7EF8E1F92D46 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B74380E5CB89355CF9FEDED07AC6018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD8FCEC28C3FF63C17D679666D639C /* ASBadgeTool-umbrella.h in Headers */,
+				6639580FAFC7248FBC9A89EEC0663A80 /* PPBadgeControl.h in Headers */,
+				2B01B494D0F1F0D1B0CEBA0ABA4A95DB /* PPBadgeView.h in Headers */,
+				C408B50DB423F1F226A10272D40B5883 /* UIBarButtonItem+PPBadgeView.h in Headers */,
+				BCB2217865B42BD50CDEE6B5CDD2327E /* UITabBarItem+PPBadgeView.h in Headers */,
+				F5FF59F96B06CC4DB407B301A2C9F20D /* UIView+PPBadgeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E48267FF7B2187869C5F0B5A2BA7F1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF495E746904AB7BFE1BC790FC4440B /* Pods-ASBadgeTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8873E7287D5F38E12B98E111480324A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B014516124819301038AC575CC290D4 /* Pods-ASBadgeTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B4ADF08EB7B97515C2799F629FB1A9B /* ASBadgeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66C58A0668DD0D628C28CCF9297B59A /* Build configuration list for PBXNativeTarget "ASBadgeTool" */;
+			buildPhases = (
+				2B74380E5CB89355CF9FEDED07AC6018 /* Headers */,
+				0ACC2A6A8A0B45A520128E7435C88926 /* Sources */,
+				733D4AE6035FF2FB87D81A84AA14759A /* Frameworks */,
+				F25F9E9369F336B90B8ECC0F08615FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBadgeTool;
+			productName = ASBadgeTool;
+			productReference = 92E0984A959262E67618DDE3BE6F7961 /* ASBadgeTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C48CD5EE456F824BCC3E7E4B24FAF7 /* Pods-ASBadgeTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFF676CE50C2DBF18840DC67381E01A /* Build configuration list for PBXNativeTarget "Pods-ASBadgeTool_Tests" */;
+			buildPhases = (
+				A8873E7287D5F38E12B98E111480324A /* Headers */,
+				B73AE276FFD9255D20696BAD3EDEF9AC /* Sources */,
+				7E9C3D5E329B0931C887F81E52F614B3 /* Frameworks */,
+				526EBC33A8C555CC0F67EF06B2764D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3631C1BCD92BE7ABE7C586EA5D94673A /* PBXTargetDependency */,
+			);
+			name = "Pods-ASBadgeTool_Tests";
+			productName = "Pods-ASBadgeTool_Tests";
+			productReference = 072EB4FAF17C85082127A0A9BF7CFC42 /* Pods_ASBadgeTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA13D1E2AA15F34543DF6721ED1BDA1B /* Pods-ASBadgeTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113927C63FA8B4A6C799F934886BF16A /* Build configuration list for PBXNativeTarget "Pods-ASBadgeTool_Example" */;
+			buildPhases = (
+				5E48267FF7B2187869C5F0B5A2BA7F1F /* Headers */,
+				881F37EB3717D6C78C91C6DEABB638C3 /* Sources */,
+				DFEA1B22ED04E9728B2D797C7E5DCE36 /* Frameworks */,
+				B0CEFA1B87F0D9569C406A67FE77C3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343EFCA50C3579E98931429EC5D6D8BC /* PBXTargetDependency */,
+			);
+			name = "Pods-ASBadgeTool_Example";
+			productName = "Pods-ASBadgeTool_Example";
+			productReference = F970B38714AAAF6EC4E068B24D92BDDF /* Pods_ASBadgeTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1EC7B57A5ABB05000CFE9196BEE898B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4ADF08EB7B97515C2799F629FB1A9B /* ASBadgeTool */,
+				FA13D1E2AA15F34543DF6721ED1BDA1B /* Pods-ASBadgeTool_Example */,
+				A0C48CD5EE456F824BCC3E7E4B24FAF7 /* Pods-ASBadgeTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526EBC33A8C555CC0F67EF06B2764D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CEFA1B87F0D9569C406A67FE77C3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25F9E9369F336B90B8ECC0F08615FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACC2A6A8A0B45A520128E7435C88926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB414D0541E8D87C584B51C768362A8 /* ASBadgeTool-dummy.m in Sources */,
+				7A85EEA659AD992BD87214CD43C1DA0C /* PPBadgeControl.m in Sources */,
+				C3AE3C1CF42AEBB6B70566FEEB6E8F09 /* UIBarButtonItem+PPBadgeView.m in Sources */,
+				D354AD483D99036074E7EEB383405567 /* UITabBarItem+PPBadgeView.m in Sources */,
+				ECE06112301F3F7CBF9DE1BA29185537 /* UIView+PPBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881F37EB3717D6C78C91C6DEABB638C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524524FFC2CAAF4D500AF86D8B9BF385 /* Pods-ASBadgeTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73AE276FFD9255D20696BAD3EDEF9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C697F15BE28E81B4C1704B71069380 /* Pods-ASBadgeTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		343EFCA50C3579E98931429EC5D6D8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASBadgeTool;
+			target = 2B4ADF08EB7B97515C2799F629FB1A9B /* ASBadgeTool */;
+			targetProxy = D29971D0A3F5620B9660FCAA2B72BBE9 /* PBXContainerItemProxy */;
+		};
+		3631C1BCD92BE7ABE7C586EA5D94673A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASBadgeTool_Example";
+			target = FA13D1E2AA15F34543DF6721ED1BDA1B /* Pods-ASBadgeTool_Example */;
+			targetProxy = 975744A64A46CE7735FC03F6B0B846F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B56D81C9335B195293CA0B75A64A5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C747BAC2A2A6E7CDC8AC079940A51D8A /* ASBadgeTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBadgeTool/ASBadgeTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBadgeTool/ASBadgeTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASBadgeTool/ASBadgeTool.modulemap";
+				PRODUCT_MODULE_NAME = ASBadgeTool;
+				PRODUCT_NAME = ASBadgeTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CFBFB1305BD0EADDCCC5BD513ADA532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A35E5F305ECE33458862AFD42BDA04 /* ASBadgeTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBadgeTool/ASBadgeTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBadgeTool/ASBadgeTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASBadgeTool/ASBadgeTool.modulemap";
+				PRODUCT_MODULE_NAME = ASBadgeTool;
+				PRODUCT_NAME = ASBadgeTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F4FF85C8E1EB16CAEDDF43AD92BDBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8900DCAB64E5B621405A020E33284DE2 /* Pods-ASBadgeTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASBadgeTool_Example/Pods-ASBadgeTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASBadgeTool_Example/Pods-ASBadgeTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EF01988B58E3E9E8B8E4D97758590D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B1450DC8925013D58A86AF77F07F7D /* Pods-ASBadgeTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASBadgeTool_Tests/Pods-ASBadgeTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASBadgeTool_Tests/Pods-ASBadgeTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96D54AF730D5A04CABCF205FA75153AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83ED4C2E8B9BEA86FE71E9FF5A125A87 /* Pods-ASBadgeTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASBadgeTool_Tests/Pods-ASBadgeTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASBadgeTool_Tests/Pods-ASBadgeTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF9689CC088B7161B2A6374F0989E2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9B084149F914471FD47154374C97D8 /* Pods-ASBadgeTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASBadgeTool_Example/Pods-ASBadgeTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASBadgeTool_Example/Pods-ASBadgeTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113927C63FA8B4A6C799F934886BF16A /* Build configuration list for PBXNativeTarget "Pods-ASBadgeTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4FF85C8E1EB16CAEDDF43AD92BDBE2 /* Debug */,
+				CF9689CC088B7161B2A6374F0989E2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFF676CE50C2DBF18840DC67381E01A /* Build configuration list for PBXNativeTarget "Pods-ASBadgeTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF01988B58E3E9E8B8E4D97758590D0 /* Debug */,
+				96D54AF730D5A04CABCF205FA75153AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66C58A0668DD0D628C28CCF9297B59A /* Build configuration list for PBXNativeTarget "ASBadgeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B56D81C9335B195293CA0B75A64A5A3 /* Debug */,
+				3CFBFB1305BD0EADDCCC5BD513ADA532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

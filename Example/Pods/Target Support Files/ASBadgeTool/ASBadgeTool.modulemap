@@ -1,0 +1,6 @@
+framework module ASBadgeTool {
+  umbrella header "ASBadgeTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

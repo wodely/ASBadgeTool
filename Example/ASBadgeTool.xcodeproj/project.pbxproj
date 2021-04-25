@@ -59,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6EDBDF4896E6972D6D5A659E /* ASBadgeTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASBadgeTool.podspec; path = ../ASBadgeTool.podspec; sourceTree = "<group>"; };
+		6EDBDF4896E6972D6D5A659E /* ASBadgeTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASBadgeTool.podspec; path = ../ASBadgeTool.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B402D20F64F370DF96A5DDF /* Pods-ASBadgeTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBadgeTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ASBadgeTool_Tests/Pods-ASBadgeTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA19A5B139791851C5303BE /* Pods_ASBadgeTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASBadgeTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0AE723C7D21146540F22FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E417A7792C07F1D93E2503A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DA0AE723C7D21146540F22FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E417A7792C07F1D93E2503A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED9C992B1F309904A145E3B3 /* Pods-ASBadgeTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBadgeTool_Example.release.xcconfig"; path = "Target Support Files/Pods-ASBadgeTool_Example/Pods-ASBadgeTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				7B402D20F64F370DF96A5DDF /* Pods-ASBadgeTool_Tests.debug.xcconfig */,
 				2B675365047FE96C9EFB5AD1 /* Pods-ASBadgeTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "liukecyl@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TU5L2H2C9P;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 31D59676C380935E56802104 /* Pods-ASBadgeTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASBadgeTool/ASBadgeTool-Prefix.pch";
 				INFOPLIST_FILE = "ASBadgeTool/ASBadgeTool-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = ED9C992B1F309904A145E3B3 /* Pods-ASBadgeTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASBadgeTool/ASBadgeTool-Prefix.pch";
 				INFOPLIST_FILE = "ASBadgeTool/ASBadgeTool-Info.plist";

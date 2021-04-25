@@ -1,0 +1,16 @@
+PODS:
+  - ASBadgeTool (0.1.0)
+
+DEPENDENCIES:
+  - ASBadgeTool (from `../`)
+
+EXTERNAL SOURCES:
+  ASBadgeTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASBadgeTool: 56a737de04cd5821ae86b9c55ef76de200187ec5
+
+PODFILE CHECKSUM: 509244425ff3528835b9936d218c3483d6401c3c
+
+COCOAPODS: 1.10.1

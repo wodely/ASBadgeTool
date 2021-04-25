@@ -1,0 +1,6 @@
+framework module Pods_ASBadgeTool_Example {
+  umbrella header "Pods-ASBadgeTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
